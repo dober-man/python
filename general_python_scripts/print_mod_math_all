@@ -1,0 +1,3 @@
+import math      # Imports the defined module
+everything = dir(math) # Sets everything to a list of things from userinput
+print everything       # Prints 'em all!

@@ -1,0 +1,5 @@
+userinput = raw_input('Enter a module to list all available options:')
+new_module = __import__(userinput)
+
+everything = dir(new_module) # Sets everything to a list of things from userinput
+print everything       # Prints 'em all!
